@@ -5,7 +5,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import { useState, useEffect } from 'react'
 import emailjs from '@emailjs/browser'
 import { useRef } from 'react'
-
+import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet'
 const button = document.getElementById('send-button')
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -50,10 +50,8 @@ const Contact = () => {
             />
           </h1>
           <p>
-            Hello, let's get in touch and have some great time ahead.I can be
-            very useful to in many ways like I am good at work that's no doubt
-            but I also can make poeple laugh, no wonder I am called by the name
-            party clown.
+            If you want to build a website or just get in touch with me, you can
+            email me or connect me through LinkedIn.
           </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>
@@ -85,7 +83,7 @@ const Contact = () => {
                     id="send-button"
                     type="submit"
                     className="flat-button"
-                    value="SEND"
+                    value="SEND EMAIL"
                   />
                 </li>
               </ul>

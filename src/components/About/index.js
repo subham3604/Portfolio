@@ -32,22 +32,13 @@ const About = () => {
             />
           </h1>
           <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
-            believable.
+            Junior at IIT Ropar pursuing B.Tech in Mathematics and Computing. I am an aspiring software developer, interested in backend development. I am a keen learner and eager to contribute to some good projects where I can solve some real life problems.
           </p>
           <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
-            believable.
+            I am a passionate programmer and I have learned C++, C, HTML, CSS, JavaScript, Bootstrap, Node, React, Git, Github and Matlab. I am curretly refining my these skills and learning about blockchain and WEB-3.
           </p>
           <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
-            believable.
+            Apart from programming, I have great interest in Cricket and Table Tennis. I enjoy both the slow paced nature of test cricket and the truly opposite fast pacing of table tennis.
           </p>
         </div>
         <div className="stage-cube-cont">

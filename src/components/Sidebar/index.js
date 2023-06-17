@@ -55,12 +55,20 @@ const Sidebar = () => (
         </a>
       </li>
       <li>
-        <a target="_blank" rel="noreferrer" href="#">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.instagram.com/subham_3604/"
+        >
           <FontAwesomeIcon icon={faInstagram} color="#4d4d4e" />
         </a>
       </li>
       <li>
-        <a target="_blank" rel="noreferrer" href="#">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://open.spotify.com/user/zfuhe03z6kb732obkqvh562yb"
+        >
           <FontAwesomeIcon icon={faSpotify} color="#4d4d4e" />
         </a>
       </li>
